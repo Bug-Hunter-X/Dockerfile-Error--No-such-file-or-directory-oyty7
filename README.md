@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: attempting to install dependencies from a `requirements.txt` file that does not exist or is located in an incorrect directory.  The original `Dockerfile` will fail during the `RUN pip3 install -r requirements.txt` stage.  The `Dockerfile.fixed` provides a corrected version.
